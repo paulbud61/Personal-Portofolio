@@ -1,216 +1,174 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume</title>
+    <title>Paul-George Bud Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>My Resume</h1>
+    <header class="header">
+      <nav class="nav-container">
+        <ul class="nav-ul">
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#work-experience">Work Experience</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <h1>Bud Paul-George</h1>
+      <h2>Junior Front-End Developer & Economist</h2>
     </header>
+    <div class="container">
+      <section id="profile">
+        <h3>Profile</h3>
+        <p>
+          As a Junior Front-End Developer, I bring proficiency in HTML, CSS,
+          JavaScript, and React JS (Redux Toolkit), along with hands-on
+          experience in Agile/Scrum methodologies. As an Economist with a
+          specialization in International Economics and Business, I have
+          in-depth knowledge of global economic mechanisms, international
+          transactions, corporate finance, and statistical analysis. My
+          expertise includes providing strategic insights into international
+          trade, conducting comprehensive market analyses, advising on
+          cross-border financial operations, applying accounting principles, and
+          utilizing economic diplomacy for effective negotiation and
+          collaboration in international business contexts. All of my projects
+          are on Github.
+        </p>
+      </section>
 
-    <section>
-      <h2>Summary</h2>
-      <p>
-        Ca Junior Front-End Developer, aduc o competență în HTML, CSS,
-        JavaScript și librăria React, împreună cu experiență practică în
-        metodologiile Agile/Scrum. Fiind economist cu specializare în Economie
-        Internațională și Afaceri, dețin cunoștințe profunde despre mecanismele
-        economice globale, tranzacții internaționale, finanțe corporative și
-        analize statistice. Expertiza mea include oferirea de perspective
-        strategice asupra comerțului internațional, realizarea de analize de
-        piață complexe, consilierea în operațiuni financiare transfrontaliere,
-        aplicarea principiilor contabile și utilizarea diplomației economice
-        pentru negociere și colaborare eficientă în contexte de afaceri
-        internaționale. Toate proiectele mele sunt pe GitHub.
-      </p>
-    </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div>
+          <h4>Frontend Skills</h4>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>React JS Library</li>
+            <li>Redux Toolkit</li>
+            <li>Git, GitHub</li>
+            <li>Fetch API</li>
+            <li>REST API</li>
+            <li>Axios & Notiflix</li>
+            <li>OOP (Object-Oriented Programming)</li>
+            <li>Agile Methodologies</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>NPM</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Economist Skills</h4>
+          <ul>
+            <li>Financial Accounting</li>
+            <li>Public Finance</li>
+            <li>Management</li>
+            <li>Applied Mathematics in Economics</li>
+            <li>Microeconomics</li>
+            <li>Macroeconomics</li>
+            <li>Descriptive Statistics</li>
+            <li>Corporate Finance</li>
+            <li>International Management</li>
+          </ul>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div>
+          <h4>Faculty of Economics and Business Administration (FSEGA)</h4>
+          <p>Degree: Economics & International Business</p>
+          <p>Duration: 2022 - Present</p>
+        </div>
+        <div>
+          <h4>Full Stack Developer Bootcamp</h4>
+          <p>Institution: GoIT Romania</p>
+          <p>Duration: May 2023 - August 2024</p>
+        </div>
+      </section>
+      <section id="projects">
+        <h3>Frontend Project Experience</h3>
+        <div>
+          <h4>Ice Cream Website</h4>
+          <p>Role: Front-End Developer</p>
+          <p>
+            Description: Responsive ice cream company website with attractive
+            design and modular window.
+          </p>
+          <p>Technologies: Parcel, SCSS, JavaScript</p>
+        </div>
+        <div>
+          <h4>Filmoteka</h4>
+          <p>Role: Team Leader & Front-End Developer</p>
+          <p>
+            Description: WebSite library to find and save movies created with
+            API integration and AJAX.
+          </p>
+          <p>Technologies: Parcel, SCSS, JS, REST API, AJAX</p>
+        </div>
+        <div>
+          <h4>Money Guard</h4>
+          <p>Role: Front-End Developer</p>
+          <p>
+            Description: A web application for managing accounts with login and
+            balance access functionality.
+          </p>
+          <p>Technologies: Parcel, CSS, JS, REST API, Redux, Authentication</p>
+        </div>
+        <div>
+          <h4>E-commerce Website</h4>
+          <p>Role: Front-End Developer</p>
+          <p>
+            Description: Personal Online Shopping Website promoting products and
+            managing user shopping lists.
+          </p>
+          <p>Technologies: HTML, CSS, JS</p>
+        </div>
+      </section>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>
-          <strong>Full Stack Developer (GOIT România)</strong> - Mai 2023 -
-          August 2024
-        </li>
-        <li>
-          <strong
-            >Facultatea de Științe Economice și Gestiunea Afacerilor
-            (FSEGA)</strong
-          >
-          - Octombrie 2022 - Prezent
-        </li>
-      </ul>
-    </section>
+      <section id="certificates">
+        <h3>Certificates</h3>
+        <div>
+          <h4>Full Stack Developer Certificate</h4>
+          <p>Institution: GoIT Romania</p>
+          <p>Duration: 15 months</p>
+          <p>
+            Technologies: HTML, CSS, JavaScript, React JS, MERN development,
+            Redux, GitHub, Git
+          </p>
+        </div>
+      </section>
 
-    <section>
-      <h2>Work Experience</h2>
-      <ul>
-        <li>
-          <strong>GoIT Intern (14 luni)</strong> - 2023 - 2024<br />
-          Rol: Full Stack Developer Intern<br />
-          Responsabilități: Am creat Proiecte de Dezvoltare Web cu HTML, CSS,
-          JavaScript, React, Node.js, Express JS, MongoDB, TypeScript.
-        </li>
-        <li>
-          <strong>AROBS Intern (1 lună)</strong> - 2024<br />
-          Rol: Intern Economist<br />
-          Responsabilități: Am lucrat în departamentul de Economie și
-          Contabilitate, concentrându-mă pe tranzacțiile economice
-          internaționale, scanarea și arhivarea tranzacțiilor companiei cu
-          clienții, observarea proceselor de negociere.
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML5 & CSS3</li>
-        <li>SASS</li>
-        <li>JavaScript</li>
-        <li>React JS Library</li>
-        <li>Redux Toolkit</li>
-        <li>Git</li>
-        <li>Fetch API</li>
-        <li>OOP</li>
-        <li>Axios & Notiflix</li>
-        <li>Agile Methodologie</li>
-        <li>VS Code</li>
-        <li>Figma</li>
-        <li>NPM</li>
-        <li>Microsoft Office</li>
-        <li>Microsoft Access</li>
-        <li>Photoshop</li>
-        <li>Sony Vegas</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Economist Skills</h2>
-      <ul>
-        <li>Contabilitate financiară</li>
-        <li>Finanțe publice</li>
-        <li>Management</li>
-        <li>Matematică aplicată în economie</li>
-        <li>Microeconomie</li>
-        <li>Fundamentele contabilității</li>
-        <li>Macroeconomie</li>
-        <li>Matematici financiare și actuariale</li>
-        <li>Statistică descriptivă</li>
-        <li>Economie internațională</li>
-        <li>Tranzacții economice internaționale</li>
-        <li>Economie europeană</li>
-        <li>Fundamente de marketing</li>
-        <li>Dreptul afacerilor</li>
-        <li>Informatică economică</li>
-        <li>Etică în afaceri</li>
-        <li>Finanțe corporative</li>
-        <li>Etică în comunicare</li>
-        <li>Management internațional</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Awards and Achievements</h2>
-      <ul>
-        <li>
-          <strong>Practice Firm - Casa Maramureșeană</strong> - 2021<br />
-          Rol: Wix Developer<br />
-          Realizări: Am creat un website pentru firma noastră tradițională "Casa
-          Maramureșeană" și am obținut locul întâi pentru cel mai bun stand și
-          un loc special pentru cea mai bună prezentare într-o competiție
-          națională.
-        </li>
-        <li>
-          <strong>MERITO Workshops and Webinars</strong> - 2019 - 2023<br />
-          Rol: Participant<br />
-          Realizări: Am participat și am susținut discursuri la diferite
-          workshop-uri și webinarii pentru dezvoltare personală. Am fost
-          implicat în proiecte interactive și networking cu educatori de top din
-          țară.
-        </li>
-        <li>
-          <strong
-            >International Competition - eTwinning Project (SWOT
-            Analysis)</strong
-          >
-          - 2021<br />
-          Rol: Participant<br />
-          Realizări: Am participat în proiectul eTwinning, recunoscut la cel mai
-          înalt nivel european. Am fost premiat cu Certificatul de Calitate
-          Europeană pentru excelență.
-        </li>
-        <li>
-          <strong
-            >International Competition - Club Francophone d'Affaires de
-            Cluj</strong
-          >
-          - 2021<br />
-          Rol: Participant<br />
-          Realizări: Am reprezentat firma Energom în secțiunea de telework și
-          tehnologie și am obținut locul doi cu proiectul intitulat "PRENEZ LE
-          GOUVERNAIL POUR LE TELETRAVAIL".
-        </li>
-        <li>
-          <strong
-            >National Competition - Legal Education for High School
-            Students</strong
-          >
-          - 2021<br />
-          Rol: Participant<br />
-          Realizări: Am participat la o competiție națională axată pe educația
-          juridică. Am obținut perspective valoroase asupra aspectelor legale
-          ale afacerilor, îmbunătățindu-mi înțelegerea dreptului.
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Frontend Project Experience</h2>
-      <ul>
-        <li>
-          <strong>Ice Cream [PARCEL, SCSS, JS]</strong> - 2023<br />
-          Rol: Front-End Developer<br />
-          Detalii: Website-ul unei companii de înghețată cu layout responsiv,
-          meniu tip burger, fereastră modală și un design atractiv.
-        </li>
-        <li>
-          <strong>Filmoteka [PARCEL, SCSS, JS, REST API, AJAX]</strong> -
-          2023<br />
-          Rol: Team Leader Front-End Developer<br />
-          Detalii: Librărie de filme online pentru a găsi și salva filme de
-          vizionat mai târziu, creată cu API. Site-ul are un design util, cu
-          funcționalități de căutare de titluri și pagini de descriere a
-          filmelor. Utilizatorul poate adăuga filmele în lista de vizionat sau
-          în lista celor vizionate.
-        </li>
-        <li>
-          <strong
-            >Money Guard [PARCEL, CSS, JS, REST API, React Redux Toolkit,
-            Authentication]</strong
-          >
-          - 2024<br />
-          Rol: Front-End Developer<br />
-          Detalii: Aplicație Web pentru administrarea banilor. Funcționalități:
-          autentificare, vizualizarea soldului contului.
-        </li>
-        <li>
-          <strong>E-commerce [HTML, CSS, JS]</strong> - 2023 - Prezent<br />
-          Rol: Front-End Developer<br />
-          Detalii: Website pentru Shopping Online personal, exclusiv alte
-          proiecte care sunt legate de Bootcamp (toate pe GitHub). Promovează
-          produse și are toate funcționalitățile necesare pentru un site de
-          cumpărături. În curs de dezvoltare (lucru în progres pe celelalte
-          pagini și funcționalitatea JavaScript).
-        </li>
-      </ul>
-    </section>
+      <section id="work-experience">
+        <h3>Work Experience</h3>
+        <div>
+          <h4>GoIT Intern (14 months)</h4>
+          <p>Role: Full Stack Developer Intern</p>
+          <p>
+            Description: Worked on Web Development Projects with technologies
+            like HTML, CSS, JavaScript, React, Node.js, Express, MongoDB,
+            TypeScript.
+          </p>
+        </div>
+        <div>
+          <h4>AROBS Transilvania Software Intern (1 month)</h4>
+          <p>Role: Economist Intern</p>
+          <p>
+            Description: Worked in the Economics and Accounting department,
+            focusing on International Economic Transactions and corporate
+            analysis.
+          </p>
+        </div>
+      </section>
+    </div>
 
     <footer>
-      <p>© 2024 My Resume - All rights reserved.</p>
-      <a href="contact.html">Contact</a> | <a href="hobbies.html">Hobbies</a>
+      <p>Contact: paulbud61@gmail.com | LinkedIn | GitHub</p>
+      <p>Location: Cluj-Napoca</p>
     </footer>
   </body>
 </html>
